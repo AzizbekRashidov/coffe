@@ -48,6 +48,11 @@
     transition: all 0.5s ease-in-out;
     border: none;
     margin-bottom: 80px;
+
+    &:hover{
+        color: #FFFFFF;
+        background-color: aquamarine;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -84,6 +89,7 @@
         font-style: normal;
         font-weight: 900;
         line-height: 32px;
+        margin-left: -40px;
     }
 
     .aka__button{
